@@ -1,4 +1,4 @@
-# Pig Game 🎲
+# <img src="./public/image.png" alt="Icon" style="width: 40px"/> Pig Game 
 
 # <img src="./public/image.png" alt="Icon"/>
 
