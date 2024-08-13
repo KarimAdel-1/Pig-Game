@@ -1,6 +1,6 @@
-# <img src="./public/image.png" alt="Icon" style="width: 40px"/> Pig Game 
+# <img src="./public/image.png" alt="Icon" style="width: 40px"/> <span style="font-size: 2rem">Pig Game </span>
 
-# <img src="./public/image.png" alt="Icon"/>
+
 
 ## Overview
 
