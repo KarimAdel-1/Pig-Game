@@ -1,4 +1,4 @@
-# <img src="./public/image.png" alt="Icon" width="40" style="vertical-align: middle; margin-right: 10px;"/> <span style="font-size: 2rem; vertical-align: middle;">**Pig Game</span>
+## 🐷 Pig Game
 
 ## Overview
 
