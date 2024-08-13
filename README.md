@@ -23,10 +23,11 @@ The Pig Game is a fun and simple dice game built with React and styled with CSS.
 ## Project Structure
 
 - **`src/`**: Contains the main code for the game.
-  - **`App.js`**: Main component that handles the game logic and renders the UI. 🧩
-  - **`Player.js`**: Component to display player information. 🧑‍🤝‍🧑
-  - **`DiceImage.js`**: Component to display the dice image. 🎲
-  - **`Button.js`**: Component for game action buttons. 🔘
+    - **`App.js`**: Main component that handles the game logic and renders the UI. 🧩
+  - **`components/`**: Contains all components.
+    - **`Player.js`**: Component to display player information. 🧑‍🤝‍🧑
+    - **`Button.js`**: Component for game action buttons. 🔘
+    - **`DiceImage.js`**: Component to display the dice image. 🎲
 
 ## Installation
 
