@@ -1,9 +1,5 @@
-Sure! Emojis can make the README more engaging and visually appealing. Here’s the updated README with emojis:
-
----
-
 # Pig Game 🎲
-
+# <img src="./public/image.png" alt="Icon"/> 
 ## Overview
 
 The Pig Game is a fun and simple dice game built with React and styled with CSS. 🎨 In this game, two players compete to reach 100 points by rolling dice and accumulating scores. The first player to reach 100 points wins! 🏆 This project showcases the use of React's `useReducer` hook for managing complex state logic.
