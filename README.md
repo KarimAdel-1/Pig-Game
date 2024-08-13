@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# Pig Game 🎲
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# <img src="./public/image.png" alt="Icon"/>
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The Pig Game is a fun and simple dice game built with React and styled with CSS. 🎨 In this game, two players compete to reach 100 points by rolling dice and accumulating scores. The first player to reach 100 points wins! 🏆 This project showcases the use of React's `useReducer` hook for managing complex state logic.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Player Turn Management:** Alternates between two players. 🔄
+- **Rolling Dice:** Roll a dice and add the rolled number to the current player's score unless a 1 is rolled. 🎲
+- **Holding Score:** Add the current score to the player's total score and switch turns. 📥
+- **Game Reset:** Start a new game and reset all scores and game state. 🔄
+- **Game Over:** Disable actions when a player reaches 100 points. 🚫
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **React:** For building the user interface and managing state. ⚛️
+- **CSS:** For styling the game components. 🎨
+- **JavaScript:** For game logic and interaction. 💻
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Structure
 
-### `npm run build`
+- **`src/`**: Contains the main code for the game.
+  - **`App.js`**: Main component that handles the game logic and renders the UI. 🧩
+  - **`Player.js`**: Component to display player information. 🧑‍🤝‍🧑
+  - **`DiceImage.js`**: Component to display the dice image. 🎲
+  - **`Button.js`**: Component for game action buttons. 🔘
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get started with the Pig Game project, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the Repository:**
 
-### `npm run eject`
+   ```bash
+   git clone https://github.com/KarimAdel-1/Pig-Game.git
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Navigate to the Project Directory:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   cd Pig-Game
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Install Dependencies:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm install
+   ```
 
-## Learn More
+4. **Run the Development Server:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+- **Roll Dice:** Click the "🎲 Roll dice" button to roll the dice and add the result to the current player's score. If a 1 is rolled, the current score is reset, and the turn switches to the other player. 🔄
+- **Hold Score:** Click the "📥 Hold" button to add the current score to the player's total score and switch turns. 📈
+- **New Game:** Click the "🔄 New game" button to reset the game and start a new session. 🎉
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributing
 
-### Analyzing the Bundle Size
+If you'd like to contribute to the Pig Game project, please follow these guidelines:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. **Fork the Repository:** 🍴
+   Click the "Fork" button at the top right of the repository page.
 
-### Making a Progressive Web App
+2. **Create a Feature Branch:** 🌱
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   ```bash
+   git checkout -b feature/your-feature
+   ```
 
-### Advanced Configuration
+3. **Commit Your Changes:** 💾
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   ```bash
+   git commit -am 'Add new feature'
+   ```
 
-### Deployment
+4. **Push to the Branch:** ⬆️
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+   ```bash
+   git push origin feature/your-feature
+   ```
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+5. **Create a Pull Request:** 🔄
+   Go to the repository on GitHub and create a pull request.
