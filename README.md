@@ -1,7 +1,8 @@
 
-  #<img src="./public/image.png" alt="Icon" style="width: 40px;"/>
-  #<span style="font-size: 2rem; margin-left: 10px;">Pig Game</span>
-
+<div style="display: flex; align-items: center;">
+  <img src="./public/image.png" alt="Icon" style="width: 40px;"/>
+  <span style="font-size: 4rem; margin-left: 10px;">Pig Game</span>
+</div>
 
 ## Overview
 
