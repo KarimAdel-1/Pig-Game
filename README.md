@@ -1,8 +1,4 @@
-
-<div style="display: flex; align-items: center; width: 100px;">
-  <img src="./public/image.png" alt="Icon" style="width: 40px;"/>
-  <span style="font-size: 4rem; margin-left: 20px;">Pig Game</span>
-</div>
+# <img src="./public/image.png" alt="Icon" width="40" style="vertical-align: middle; margin-right: 10px;"/> <span style="font-size: 2rem; vertical-align: middle;">Pig Game</span>
 
 ## Overview
 
